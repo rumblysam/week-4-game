@@ -5,10 +5,80 @@
 </head>
 <body>
 
+		<button id="startGame"></button>
+		<div>
+			<ul class="scoreBoard">
+				<li class="wins">Wins: </li>
+				<li class="losses">Losses: </li>
+			</ul>
+		</div>
+
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	alert("There is nothing here.");
+	
+
+	//Create random number
+		//store random number as goalNumber
+	//display number
+	//Print four buttons 
+	//assign random number when clicked
+		//store random number
+		//make sure button value stays the same
+	//setup conditionals 
+		//Win: total score equals random number
+			//If Win add 1
+		//Loss: total score is greater than random number
+			//If loss add 1
+		//add all numbers
+		//compare total to conditional
+	
+
+Set var totalWins
+Set var totalLosses
+    
+/*var [startGame]: False ---(click)---> True*/
+
+$("#startGame").on('click',function(){
+
+});
+
+/*    A.                                                                    B.
+    True                                                                False
+    1. Define var Goal Number - Generate Random Number for Goal
+    2. Define var Gem Numbers - Generate Random Numbers for Gems
+    
+    2.5 Set var myNumber;
+    3. Display Goal Number
+    4. Fixed Gem Numbers:
+            Red Gem - math.random number()
+            Other Gems - math.random number()
+    5. Clicking only ADDS to Total
+    6. On click, add to value of myTotal
+    7. Validate Win/Lose
+        a. Win: Check if Goal Number === myTotal
+            - alert "You Win!" 
+            alert("You Win!");
+            - totalWins ++1
+            - GameStart = false
+            - reset 'per round' variables
+        b. Lose: Check if Goal Number < myTotal
+            - alert "You lost!"
+            alert("You lost!");
+            - totalLosses ++1
+            - GameStart = false
+            - reset 'per round' variables
+    
+            
+------------------------------------------------------------------------------
+     
+     
+     'per round' var          'game rounds' var
+        Goal Number             totalWins
+        myNumber                total Losses
+        Gem Numbers
+        GameStart
+*/
 
 
 
